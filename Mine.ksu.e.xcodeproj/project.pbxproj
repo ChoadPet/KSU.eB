@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29B4103F1EC4CFEA009B5645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B4103E1EC4CFEA009B5645 /* main.m */; };
+		29B410421EC4CFEA009B5645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B410411EC4CFEA009B5645 /* AppDelegate.m */; };
+		29B410451EC4CFEA009B5645 /* LoginUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B410441EC4CFEA009B5645 /* LoginUserViewController.m */; };
+		29B410481EC4CFEA009B5645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B410461EC4CFEA009B5645 /* Main.storyboard */; };
+		29B4104A1EC4CFEA009B5645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B410491EC4CFEA009B5645 /* Assets.xcassets */; };
+		29B4104D1EC4CFEA009B5645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B4104B1EC4CFEA009B5645 /* LaunchScreen.storyboard */; };
+		29B410571EC4D54C009B5645 /* SignUpUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B410561EC4D54C009B5645 /* SignUpUserViewController.m */; };
+		29B4105A1EC601C1009B5645 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B410591EC601C0009B5645 /* ForgotPasswordViewController.m */; };
+		29B410611EC75B5E009B5645 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B410601EC75B5E009B5645 /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29B4103A1EC4CFEA009B5645 /* Mine.ksu.e.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mine.ksu.e.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B4103E1EC4CFEA009B5645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B410401EC4CFEA009B5645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29B410411EC4CFEA009B5645 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29B410431EC4CFEA009B5645 /* LoginUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginUserViewController.h; sourceTree = "<group>"; };
+		29B410441EC4CFEA009B5645 /* LoginUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginUserViewController.m; sourceTree = "<group>"; };
+		29B410471EC4CFEA009B5645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29B410491EC4CFEA009B5645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29B4104C1EC4CFEA009B5645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29B4104E1EC4CFEA009B5645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B410551EC4D54C009B5645 /* SignUpUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpUserViewController.h; sourceTree = "<group>"; };
+		29B410561EC4D54C009B5645 /* SignUpUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpUserViewController.m; sourceTree = "<group>"; };
+		29B410581EC601C0009B5645 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordViewController.h; sourceTree = "<group>"; };
+		29B410591EC601C0009B5645 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordViewController.m; sourceTree = "<group>"; };
+		29B4105F1EC75B5E009B5645 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		29B410601EC75B5E009B5645 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B410371EC4CFEA009B5645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29B410311EC4CFEA009B5645 = {
+			isa = PBXGroup;
+			children = (
+				29B4103C1EC4CFEA009B5645 /* Mine.ksu.e */,
+				29B4103B1EC4CFEA009B5645 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29B4103B1EC4CFEA009B5645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29B4103A1EC4CFEA009B5645 /* Mine.ksu.e.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B4103C1EC4CFEA009B5645 /* Mine.ksu.e */ = {
+			isa = PBXGroup;
+			children = (
+				29B410541EC4D425009B5645 /* View Controllers */,
+				29B410401EC4CFEA009B5645 /* AppDelegate.h */,
+				29B410411EC4CFEA009B5645 /* AppDelegate.m */,
+				29B410461EC4CFEA009B5645 /* Main.storyboard */,
+				29B410491EC4CFEA009B5645 /* Assets.xcassets */,
+				29B4104B1EC4CFEA009B5645 /* LaunchScreen.storyboard */,
+				29B4104E1EC4CFEA009B5645 /* Info.plist */,
+				29B4103D1EC4CFEA009B5645 /* Supporting Files */,
+			);
+			path = Mine.ksu.e;
+			sourceTree = "<group>";
+		};
+		29B4103D1EC4CFEA009B5645 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29B4103E1EC4CFEA009B5645 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29B410541EC4D425009B5645 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				29B410621EC75DA7009B5645 /* MainMenu */,
+				29B4105B1EC75AFC009B5645 /* Login */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		29B4105B1EC75AFC009B5645 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				29B4105F1EC75B5E009B5645 /* MainViewController.h */,
+				29B410601EC75B5E009B5645 /* MainViewController.m */,
+				29B410431EC4CFEA009B5645 /* LoginUserViewController.h */,
+				29B410441EC4CFEA009B5645 /* LoginUserViewController.m */,
+				29B410551EC4D54C009B5645 /* SignUpUserViewController.h */,
+				29B410561EC4D54C009B5645 /* SignUpUserViewController.m */,
+				29B410581EC601C0009B5645 /* ForgotPasswordViewController.h */,
+				29B410591EC601C0009B5645 /* ForgotPasswordViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		29B410621EC75DA7009B5645 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MainMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29B410391EC4CFEA009B5645 /* Mine.ksu.e */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29B410511EC4CFEA009B5645 /* Build configuration list for PBXNativeTarget "Mine.ksu.e" */;
+			buildPhases = (
+				29B410361EC4CFEA009B5645 /* Sources */,
+				29B410371EC4CFEA009B5645 /* Frameworks */,
+				29B410381EC4CFEA009B5645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mine.ksu.e;
+			productName = Mine.ksu.e;
+			productReference = 29B4103A1EC4CFEA009B5645 /* Mine.ksu.e.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B410321EC4CFEA009B5645 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = vpoltave;
+				TargetAttributes = {
+					29B410391EC4CFEA009B5645 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZNA2424JBU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 29B410351EC4CFEA009B5645 /* Build configuration list for PBXProject "Mine.ksu.e" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29B410311EC4CFEA009B5645;
+			productRefGroup = 29B4103B1EC4CFEA009B5645 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29B410391EC4CFEA009B5645 /* Mine.ksu.e */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29B410381EC4CFEA009B5645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B4104D1EC4CFEA009B5645 /* LaunchScreen.storyboard in Resources */,
+				29B4104A1EC4CFEA009B5645 /* Assets.xcassets in Resources */,
+				29B410481EC4CFEA009B5645 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29B410361EC4CFEA009B5645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B410611EC75B5E009B5645 /* MainViewController.m in Sources */,
+				29B410451EC4CFEA009B5645 /* LoginUserViewController.m in Sources */,
+				29B410571EC4D54C009B5645 /* SignUpUserViewController.m in Sources */,
+				29B410421EC4CFEA009B5645 /* AppDelegate.m in Sources */,
+				29B4105A1EC601C1009B5645 /* ForgotPasswordViewController.m in Sources */,
+				29B4103F1EC4CFEA009B5645 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29B410461EC4CFEA009B5645 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B410471EC4CFEA009B5645 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29B4104B1EC4CFEA009B5645 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B4104C1EC4CFEA009B5645 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29B4104F1EC4CFEA009B5645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29B410501EC4CFEA009B5645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29B410521EC4CFEA009B5645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZNA2424JBU;
+				INFOPLIST_FILE = Mine.ksu.e/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vpoltave.Mine-ksu-e";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29B410531EC4CFEA009B5645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZNA2424JBU;
+				INFOPLIST_FILE = Mine.ksu.e/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vpoltave.Mine-ksu-e";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29B410351EC4CFEA009B5645 /* Build configuration list for PBXProject "Mine.ksu.e" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B4104F1EC4CFEA009B5645 /* Debug */,
+				29B410501EC4CFEA009B5645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29B410511EC4CFEA009B5645 /* Build configuration list for PBXNativeTarget "Mine.ksu.e" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B410521EC4CFEA009B5645 /* Debug */,
+				29B410531EC4CFEA009B5645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B410321EC4CFEA009B5645 /* Project object */;
+}
