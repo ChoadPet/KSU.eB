@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
+#import "SWRevealViewController.h"
 
 
 @interface LoginUserViewController : UIViewController <UITextFieldDelegate>
@@ -17,6 +18,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
 @property (weak, nonatomic) IBOutlet UILabel *failLogin;
+
 
 @property (weak, nonatomic) IBOutlet UIButton *entryButton;
 @property (weak, nonatomic) IBOutlet UIButton *forgotButton;

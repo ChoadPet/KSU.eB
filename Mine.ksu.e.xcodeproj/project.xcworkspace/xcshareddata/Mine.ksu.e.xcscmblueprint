@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "81B386E35EA1F296A43125CB5E024898C82034D0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "81B386E35EA1F296A43125CB5E024898C82034D0" : 9223372036854775807,
+    "01529694042D8C98B30DC19F4D4370A306884FE4" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ABDA1554-462E-4017-8A4C-43359175EFF8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "81B386E35EA1F296A43125CB5E024898C82034D0" : "KSU.eB\/",
+    "01529694042D8C98B30DC19F4D4370A306884FE4" : "SWRevealViewController\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Mine.ksu.e",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Mine.ksu.e.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/John-Lluch\/SWRevealViewController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "01529694042D8C98B30DC19F4D4370A306884FE4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ChoadPet\/KSU.eB.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81B386E35EA1F296A43125CB5E024898C82034D0"
+    }
+  ]
+}

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291F60C41ED4645300D7A7A7 /* LabExercisesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291F60C31ED4645300D7A7A7 /* LabExercisesTableViewController.m */; };
+		291F60CE1ED4BD3200D7A7A7 /* gradientBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 291F60CD1ED4BD3200D7A7A7 /* gradientBg.jpg */; };
+		291F60D01ED4BF0E00D7A7A7 /* logoBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 291F60CF1ED4BF0E00D7A7A7 /* logoBg.png */; };
+		291F60D21ED4BF8400D7A7A7 /* gradient@3x-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 291F60D11ED4BF8400D7A7A7 /* gradient@3x-1.jpg */; };
 		29B4103F1EC4CFEA009B5645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B4103E1EC4CFEA009B5645 /* main.m */; };
 		29B410421EC4CFEA009B5645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B410411EC4CFEA009B5645 /* AppDelegate.m */; };
 		29B410451EC4CFEA009B5645 /* LoginUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B410441EC4CFEA009B5645 /* LoginUserViewController.m */; };
@@ -15,10 +19,19 @@
 		29B4104D1EC4CFEA009B5645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B4104B1EC4CFEA009B5645 /* LaunchScreen.storyboard */; };
 		29B410571EC4D54C009B5645 /* SignUpUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B410561EC4D54C009B5645 /* SignUpUserViewController.m */; };
 		29B4105A1EC601C1009B5645 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B410591EC601C0009B5645 /* ForgotPasswordViewController.m */; };
-		29B410611EC75B5E009B5645 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B410601EC75B5E009B5645 /* MainViewController.m */; };
+		29B410E81EC8C131009B5645 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B410E71EC8C131009B5645 /* SWRevealViewController.m */; };
+		29B410EB1EC8C6EB009B5645 /* SlideOutMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B410EA1EC8C6EB009B5645 /* SlideOutMenuViewController.m */; };
+		29B410EE1EC8C8AA009B5645 /* NavigationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B410ED1EC8C8AA009B5645 /* NavigationTableViewController.m */; };
+		29F156F61ECB015900E827FA /* MyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F156F51ECB015900E827FA /* MyProfileViewController.m */; };
+		29F156FC1ED1C7EB00E827FA /* MyCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F156FB1ED1C7EB00E827FA /* MyCourseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		291F60C21ED4645300D7A7A7 /* LabExercisesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabExercisesTableViewController.h; sourceTree = "<group>"; };
+		291F60C31ED4645300D7A7A7 /* LabExercisesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabExercisesTableViewController.m; sourceTree = "<group>"; };
+		291F60CD1ED4BD3200D7A7A7 /* gradientBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gradientBg.jpg; path = ../../../../../Downloads/gradientBg.jpg; sourceTree = "<group>"; };
+		291F60CF1ED4BF0E00D7A7A7 /* logoBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoBg.png; path = ../../../../../Downloads/logoBg.png; sourceTree = "<group>"; };
+		291F60D11ED4BF8400D7A7A7 /* gradient@3x-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "gradient@3x-1.jpg"; path = "../../../../../Downloads/gradient@3x-1.jpg"; sourceTree = "<group>"; };
 		29B4103A1EC4CFEA009B5645 /* Mine.ksu.e.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mine.ksu.e.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B4103E1EC4CFEA009B5645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B410401EC4CFEA009B5645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,8 +46,16 @@
 		29B410561EC4D54C009B5645 /* SignUpUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpUserViewController.m; sourceTree = "<group>"; };
 		29B410581EC601C0009B5645 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordViewController.h; sourceTree = "<group>"; };
 		29B410591EC601C0009B5645 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordViewController.m; sourceTree = "<group>"; };
-		29B4105F1EC75B5E009B5645 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		29B410601EC75B5E009B5645 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		29B410E61EC8C131009B5645 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		29B410E71EC8C131009B5645 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		29B410E91EC8C6EB009B5645 /* SlideOutMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideOutMenuViewController.h; sourceTree = "<group>"; };
+		29B410EA1EC8C6EB009B5645 /* SlideOutMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideOutMenuViewController.m; sourceTree = "<group>"; };
+		29B410EC1EC8C8AA009B5645 /* NavigationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationTableViewController.h; sourceTree = "<group>"; };
+		29B410ED1EC8C8AA009B5645 /* NavigationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationTableViewController.m; sourceTree = "<group>"; };
+		29F156F41ECB015900E827FA /* MyProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProfileViewController.h; sourceTree = "<group>"; };
+		29F156F51ECB015900E827FA /* MyProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProfileViewController.m; sourceTree = "<group>"; };
+		29F156FA1ED1C7EB00E827FA /* MyCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCourseViewController.h; sourceTree = "<group>"; };
+		29F156FB1ED1C7EB00E827FA /* MyCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCourseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +103,10 @@
 		29B4103D1EC4CFEA009B5645 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				291F60D11ED4BF8400D7A7A7 /* gradient@3x-1.jpg */,
+				291F60CF1ED4BF0E00D7A7A7 /* logoBg.png */,
+				291F60CD1ED4BD3200D7A7A7 /* gradientBg.jpg */,
+				29B410E51EC8C131009B5645 /* SWRevealViewController */,
 				29B4103E1EC4CFEA009B5645 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -99,8 +124,6 @@
 		29B4105B1EC75AFC009B5645 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				29B4105F1EC75B5E009B5645 /* MainViewController.h */,
-				29B410601EC75B5E009B5645 /* MainViewController.m */,
 				29B410431EC4CFEA009B5645 /* LoginUserViewController.h */,
 				29B410441EC4CFEA009B5645 /* LoginUserViewController.m */,
 				29B410551EC4D54C009B5645 /* SignUpUserViewController.h */,
@@ -114,8 +137,28 @@
 		29B410621EC75DA7009B5645 /* MainMenu */ = {
 			isa = PBXGroup;
 			children = (
+				29B410E91EC8C6EB009B5645 /* SlideOutMenuViewController.h */,
+				29B410EA1EC8C6EB009B5645 /* SlideOutMenuViewController.m */,
+				29B410EC1EC8C8AA009B5645 /* NavigationTableViewController.h */,
+				29B410ED1EC8C8AA009B5645 /* NavigationTableViewController.m */,
+				29F156F41ECB015900E827FA /* MyProfileViewController.h */,
+				29F156F51ECB015900E827FA /* MyProfileViewController.m */,
+				29F156FA1ED1C7EB00E827FA /* MyCourseViewController.h */,
+				29F156FB1ED1C7EB00E827FA /* MyCourseViewController.m */,
+				291F60C21ED4645300D7A7A7 /* LabExercisesTableViewController.h */,
+				291F60C31ED4645300D7A7A7 /* LabExercisesTableViewController.m */,
 			);
 			name = MainMenu;
+			sourceTree = "<group>";
+		};
+		29B410E51EC8C131009B5645 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				29B410E61EC8C131009B5645 /* SWRevealViewController.h */,
+				29B410E71EC8C131009B5645 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			path = ../../SWRevealViewController/SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,9 +220,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				291F60CE1ED4BD3200D7A7A7 /* gradientBg.jpg in Resources */,
 				29B4104D1EC4CFEA009B5645 /* LaunchScreen.storyboard in Resources */,
+				291F60D01ED4BF0E00D7A7A7 /* logoBg.png in Resources */,
 				29B4104A1EC4CFEA009B5645 /* Assets.xcassets in Resources */,
 				29B410481EC4CFEA009B5645 /* Main.storyboard in Resources */,
+				291F60D21ED4BF8400D7A7A7 /* gradient@3x-1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,9 +236,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29B410611EC75B5E009B5645 /* MainViewController.m in Sources */,
+				29B410E81EC8C131009B5645 /* SWRevealViewController.m in Sources */,
+				29F156F61ECB015900E827FA /* MyProfileViewController.m in Sources */,
+				29B410EE1EC8C8AA009B5645 /* NavigationTableViewController.m in Sources */,
+				29F156FC1ED1C7EB00E827FA /* MyCourseViewController.m in Sources */,
 				29B410451EC4CFEA009B5645 /* LoginUserViewController.m in Sources */,
 				29B410571EC4D54C009B5645 /* SignUpUserViewController.m in Sources */,
+				29B410EB1EC8C6EB009B5645 /* SlideOutMenuViewController.m in Sources */,
+				291F60C41ED4645300D7A7A7 /* LabExercisesTableViewController.m in Sources */,
 				29B410421EC4CFEA009B5645 /* AppDelegate.m in Sources */,
 				29B4105A1EC601C1009B5645 /* ForgotPasswordViewController.m in Sources */,
 				29B4103F1EC4CFEA009B5645 /* main.m in Sources */,
@@ -354,6 +405,7 @@
 				29B410531EC4CFEA009B5645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

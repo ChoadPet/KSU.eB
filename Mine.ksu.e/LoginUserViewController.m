@@ -20,7 +20,6 @@
     
     // white borders for buttons
     [self borderForLoginButtons:self.entryButton];
-    [self borderForLoginButtons:self.forgotButton];
     [self borderForLoginButtons:self.registrationButton];
     
     // Color for navigation controller button(backButton)
@@ -28,8 +27,8 @@
     [bar setTintColor:[UIColor colorWithRed:0  green:0 blue:0 alpha:1.0]];
     
     //log in username and password
-    self.username = @"vpoltave@gmail.com";
-    self.password = @"pass";
+    self.username = @"vpoltave";
+    self.password = @"pa";
     
     
 }
@@ -50,7 +49,7 @@
 - (void)borderForLoginButtons: (UIButton*)button{
     
     [button.layer setBorderWidth:1.f];
-    [button.layer setBorderColor:[[UIColor lightGrayColor] CGColor]];
+    [button.layer setBorderColor:[[UIColor whiteColor] CGColor]];
 }
 
 - (void)loginUserAlert {
@@ -88,7 +87,7 @@
         NSLog(@"log in success");
         //[self loginUserAlert];
         self.failLogin.hidden = YES;
-        [self performSegueWithIdentifier:@"login" sender:self];
+        [self performSegueWithIdentifier:@"mainMenu" sender:self];
     }
     else  {
     

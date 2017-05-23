@@ -24,7 +24,7 @@ NSArray* pickerViewArray;
     myPickerView.delegate = self;
     myPickerView.dataSource = self;
     
-    pickerViewArray = @[@"Студент", @"Викладач", @"Ще не визначився"];
+    pickerViewArray = @[@"Студент", @"Викладач"];
     
     [self borderForLoginButtons:self.registrationButton];
     
@@ -121,11 +121,11 @@ NSArray* pickerViewArray;
 
 - (void)checkAllFieldsComplete {
     
-    if ([self.usernameField.text isEqualToString:@""] ||
-        [self.secondNameField.text isEqualToString:@""] ||
-        [self.emailAdressField.text isEqualToString:@""] ||
-        [self.passwordField.text isEqualToString:@""] ||
-        [self.reenterPasswordField.text isEqualToString:@""]) {
+    if (!([self.usernameField hasText]) ||
+        !([self.secondNameField hasText]) ||
+        !([self.emailAdressField hasText]) ||
+        !([self.passwordField hasText]) ||
+        !([self.reenterPasswordField hasText])) {
         
         self.passwordAreNotMatch.text = @"Заповніть усі поля позначенні з (*)!";
         
