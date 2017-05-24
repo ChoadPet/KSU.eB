@@ -35,7 +35,7 @@
 - (void)borderForLoginButtons: (UIButton*)button{
     
     [button.layer setBorderWidth:1.f];
-    [button.layer setBorderColor:[[UIColor lightGrayColor] CGColor]];
+    [button.layer setBorderColor:[[UIColor blackColor] CGColor]];
 }
 
 - (void)CourseAlert {

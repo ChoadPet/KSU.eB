@@ -28,6 +28,10 @@ NSArray* pickerViewArray;
     
     [self borderForLoginButtons:self.registrationButton];
     
+    UIView *paddingView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 5, 20)];
+    self.usernameField.leftView = paddingView;
+    self.secondNameField.leftViewMode = UITextFieldViewModeAlways;
+    
 }
 
 //- (NSAttributedString *)pickerView:(UIPickerView *)pickerView attributedTitleForRow:(NSInteger)row forComponent:(NSInteger)component
@@ -42,34 +46,34 @@ NSArray* pickerViewArray;
 - (void)borderForLoginButtons: (UIButton*)button{
     
     [button.layer setBorderWidth:1.f];
-    [button.layer setBorderColor:[[UIColor lightGrayColor] CGColor]];
+    [button.layer setBorderColor:[[UIColor whiteColor] CGColor]];
 }
 
 
--(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
-    
-    NSString* rolSelected = [pickerViewArray objectAtIndex:row];
-    myLabel.text = rolSelected;
-    
-}
-
--(NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
-    
-    return pickerViewArray.count;
-
-}
-
--(NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
-    
-    return 1;
-    
-}
-
--(NSString*)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
-    
-    return pickerViewArray[row];
-    
-}
+//-(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
+//    
+//    NSString* rolSelected = [pickerViewArray objectAtIndex:row];
+//    myLabel.text = rolSelected;
+//    
+//}
+//
+//-(NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
+//    
+//    return pickerViewArray.count;
+//
+//}
+//
+//-(NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
+//    
+//    return 1;
+//    
+//}
+//
+//-(NSString*)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
+//    
+//    return pickerViewArray[row];
+//    
+//}
 
 - (void)viewWillAppear:(BOOL)animated {
     
@@ -110,10 +114,10 @@ NSArray* pickerViewArray;
         self.passwordAreNotMatch.text = @"Паролі не совпадають!";
         
         [UIView animateWithDuration:0.3 animations:^{
-            self.passwordAreNotMatch.alpha = 1;
+            self.passwordAreNotMatch.alpha = 0.7f;
         }];
     } else {
-        [self performSegueWithIdentifier:@"sign up" sender:self];
+//        [self performSegueWithIdentifier:@"sign up" sender:self];
         [self loginUserAlert];
     }
     
@@ -130,7 +134,7 @@ NSArray* pickerViewArray;
         self.passwordAreNotMatch.text = @"Заповніть усі поля позначенні з (*)!";
         
         [UIView animateWithDuration:0.3 animations:^{
-            self.passwordAreNotMatch.alpha = 1;
+            self.passwordAreNotMatch.alpha = 0.7f;
         }];
     }
     else {

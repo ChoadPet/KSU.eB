@@ -32,7 +32,7 @@
 - (void)borderForLoginButtons: (UIButton*)button{
     
     [button.layer setBorderWidth:1.f];
-    [button.layer setBorderColor:[[UIColor lightGrayColor] CGColor]];
+    [button.layer setBorderColor:[[UIColor whiteColor] CGColor]];
 }
 
 -(void) viewWillAppear:(BOOL)animated {
@@ -67,7 +67,7 @@
         self.warningMessage.text = @"Заповніть будь ласка, поле E-Mail!";
         
         [UIView animateWithDuration:0.3 animations:^{
-            self.warningMessage.alpha = 1;
+            self.warningMessage.alpha = 0.7f;
         }];
     } else {
        

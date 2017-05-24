@@ -27,8 +27,12 @@
     [bar setTintColor:[UIColor colorWithRed:0  green:0 blue:0 alpha:1.0]];
     
     //log in username and password
-    self.username = @"vpoltave";
-    self.password = @"pa";
+    self.username = @"vpoltave@gmail.com";
+    self.password = @"pass";
+    
+    UIView *paddingView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 5, 20)];
+    self.userNameTextField.leftView = paddingView;
+    self.passwordTextField.leftViewMode = UITextFieldViewModeAlways;
     
     
 }
@@ -79,7 +83,7 @@
         
         self.failLogin.text = @"Заповніть будь ласка,поля пароль та Email!";
         [UIView animateWithDuration:0.3 animations:^{
-            self.failLogin.alpha = 1;
+            self.failLogin.alpha = 0.7f;
         }];
         
     } else if (isUserNameEqual && isUserPasswordEqual) {
@@ -95,7 +99,7 @@
         self.failLogin.text = @"Невірний пароль або Email!";
         self.failLogin.hidden = NO;
         [UIView animateWithDuration:0.3 animations:^{
-            self.failLogin.alpha = 1;
+            self.failLogin.alpha = 0.7f;
         }];
     }
 }
